@@ -1,0 +1,13 @@
+
+DateTime today = DateTime.Now; // Текущая дата
+
+// Добавить к дате 7 дней
+DateTime totalDay = today.AddDays(7);
+
+// Добавить к дате 10 минут
+DateTime totalMinutes = today.AddMinutes(10);
+
+// Добавить к дате 2 часа
+DateTime totalHour = today.AddMinutes(120);
+
+
